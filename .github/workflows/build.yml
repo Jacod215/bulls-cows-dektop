@@ -1,0 +1,45 @@
+name: Build and Release
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    # Добавляем необходимые права для работы с релизами
+    permissions:
+      contents: write
+      actions: read
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup MSBuild
+        uses: microsoft/setup-msbuild@v1
+
+      - name: Build Release
+        run: |
+          msbuild byky_korowa\byky_korowa.csproj `
+          /p:Configuration=Release `
+          /p:Platform=AnyCPU `
+          /t:Restore,Rebuild
+
+      - name: Verify EXE
+        shell: cmd
+        run: |
+          dir /s /b byky_korowa\bin\Release\*.exe
+          if not exist byky_korowa\bin\Release\*.exe exit 1
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: |
+            byky_korowa/bin/Release/byky_korowa.exe
+          tag_name: release-${{ github.run_id }}  # Используем уникальный run_id вместо run_number
+          name: "Release ${{ github.run_id }}"
+          draft: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

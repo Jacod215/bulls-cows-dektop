@@ -1,0 +1,14 @@
+D:\Visual Studio\kody\byky_korowa\byky_korowa\bin\Debug\byky_korowa.exe.config
+D:\Visual Studio\kody\byky_korowa\byky_korowa\bin\Debug\byky_korowa.exe
+D:\Visual Studio\kody\byky_korowa\byky_korowa\bin\Debug\byky_korowa.pdb
+D:\Visual Studio\kody\byky_korowa\byky_korowa\obj\Debug\byky_korowa.csproj.AssemblyReference.cache
+D:\Visual Studio\kody\byky_korowa\byky_korowa\obj\Debug\byky_korowa.csproj.CoreCompileInputs.cache
+D:\Visual Studio\kody\byky_korowa\byky_korowa\obj\Debug\byky_korowa.exe
+D:\Visual Studio\kody\byky_korowa\byky_korowa\obj\Debug\byky_korowa.pdb
+C:\Users\48120\OneDrive - Uniwersytet Pomorski w Słupsku\Робочий стіл\byky-korovy-desktop-master\byky_korowa\bin\Debug\byky_korowa.exe.config
+C:\Users\48120\OneDrive - Uniwersytet Pomorski w Słupsku\Робочий стіл\byky-korovy-desktop-master\byky_korowa\bin\Debug\byky_korowa.exe
+C:\Users\48120\OneDrive - Uniwersytet Pomorski w Słupsku\Робочий стіл\byky-korovy-desktop-master\byky_korowa\bin\Debug\byky_korowa.pdb
+C:\Users\48120\OneDrive - Uniwersytet Pomorski w Słupsku\Робочий стіл\byky-korovy-desktop-master\byky_korowa\obj\Debug\byky_korowa.csproj.AssemblyReference.cache
+C:\Users\48120\OneDrive - Uniwersytet Pomorski w Słupsku\Робочий стіл\byky-korovy-desktop-master\byky_korowa\obj\Debug\byky_korowa.csproj.CoreCompileInputs.cache
+C:\Users\48120\OneDrive - Uniwersytet Pomorski w Słupsku\Робочий стіл\byky-korovy-desktop-master\byky_korowa\obj\Debug\byky_korowa.exe
+C:\Users\48120\OneDrive - Uniwersytet Pomorski w Słupsku\Робочий стіл\byky-korovy-desktop-master\byky_korowa\obj\Debug\byky_korowa.pdb
